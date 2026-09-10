@@ -94,7 +94,7 @@ Aplicação desenvolvida em React utilizando componentização, propriedades, es
 Tecnologias: React, JavaScript, CSS e Vite.
 
 Repositório:
-https://github.com/DaniChaves10/pratica_avaliada_07
+https://github.com/DaniChaves10/pratica_avaliada_09
 
 Stranger Things
 
@@ -169,7 +169,7 @@ O projeto pode ser publicado gratuitamente utilizando plataformas como Vercel, N
 
 Após realizar o deploy, adicione o endereço aqui:
 
-https://SEU-PORTFOLIO.vercel.app
+https://portfolioreact-eta.vercel.app/
 
 📱 Responsividade
 
