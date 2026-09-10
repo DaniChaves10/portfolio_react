@@ -165,9 +165,7 @@ npm run preview
 
 🌐 Deploy
 
-O projeto pode ser publicado gratuitamente utilizando plataformas como Vercel, Netlify ou GitHub Pages.
-
-Após realizar o deploy, adicione o endereço aqui:
+O projeto está publicado na Vercel e pode ser acessado através do link:
 
 https://portfolioreact-eta.vercel.app/
 
