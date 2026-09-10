@@ -1,0 +1,183 @@
+.sobre {
+  padding: 100px 24px;
+
+  background: #111827;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.header span {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #38bdf8;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.header h2 {
+  color: #f8fafc;
+
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+
+  align-items: center;
+
+  gap: 70px;
+}
+
+.photoArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photoPlaceholder {
+  width: 320px;
+  height: 380px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  border-radius: 20px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #172033,
+      #0f172a
+    );
+
+  box-shadow:
+    20px 20px 0 rgba(56, 189, 248, 0.08);
+}
+
+.photoPlaceholder span {
+  color: #38bdf8;
+
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.text h3 {
+  margin-bottom: 22px;
+
+  color: #f8fafc;
+
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.text p {
+  margin-bottom: 16px;
+
+  color: #94a3b8;
+
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 16px;
+
+  margin-top: 35px;
+}
+
+.info div {
+  padding: 18px;
+
+  border: 1px solid #263348;
+  border-radius: 12px;
+
+  background: #0f172a;
+}
+
+.info span {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #38bdf8;
+
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  text-transform: uppercase;
+}
+
+.info strong {
+  color: #e2e8f0;
+
+  font-size: 0.95rem;
+}
+
+@media (max-width: 850px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .photoPlaceholder {
+    width: 260px;
+    height: 310px;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .info {
+    text-align: left;
+  }
+}
+
+@media (max-width: 550px) {
+  .sobre {
+    padding: 75px 18px;
+  }
+
+  .info {
+    grid-template-columns: 1fr;
+  }
+
+  .photoPlaceholder {
+    width: 220px;
+    height: 260px;
+  }
+}
+
+.photoPlaceholder {
+  overflow: hidden;
+}
+
+.photoPlaceholder img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+}
